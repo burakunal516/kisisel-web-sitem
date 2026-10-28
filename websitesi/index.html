@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burak Ünal | Kişisel Web Sitesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="site-container">
+
+    <main class="main-card" id="anasayfa">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand" href="#anasayfa">Burak Ünal.</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menüyü aç" aria-controls="menu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anasayfa">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hakkimda">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projeler">Projelerim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#yetenekler">Yeteneklerim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dunyam">Benim Dünyam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#iletisim">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row align-items-center hero g-5">
+
+            <div class="col-md-6">
+                <h1>
+                    Merhaba, Ben Burak.<br>
+                    Bilgisayar Mühendisliği Öğrencisiyim.
+                </h1>
+
+                <p class="intro">
+                    Necmettin Erbakan Üniversitesi'nde bilgisayar mühendisliği
+                    okuyorum. Yazılımla ilgileniyorum, yeni teknolojiler
+                    öğrenmeyi ve kendimi geliştirmeyi seviyorum.
+                </p>
+
+                <a href="#hakkimda" class="btn main-button">Beni Tanı</a>
+
+                <div class="social-icons">
+                    <a href="https://github.com/burakunal516" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/burak-ünal-a28573444/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=burakunal516%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="E-posta">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="photo-frame">
+                    <img src="images/profil.jpg" alt="Burak Ünal">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="content-card" id="hakkimda">
+        <h2>Hakkımda</h2>
+
+        <p>
+            Ben Burak Ünal. Necmettin Erbakan Üniversitesi
+            Bilgisayar Mühendisliği 3. sınıf öğrencisiyim.
+            Yazılım geliştirme, algoritmalar ve veritabanı sistemleri
+            üzerine kendimi geliştiriyorum. Yeni şeyler öğrenmeyi
+            ve öğrendiklerimi uygulamaya dönüştürmeyi seviyorum.
+        </p>
+
+        <p>
+            Özellikle backend geliştirme, fintech sistemleri
+            ve yazılım teknolojileri ilgimi çekiyor.
+            Gelecekte bu alanlarda çalışmak ve kendi projelerimi
+            geliştirmek istiyorum.
+        </p>
+    </section>
+
+    <section class="content-card" id="projeler">
+        <h2>Projelerim</h2>
+        <p>Şimdiye kadar geliştirdiğim bazı projeler ve çalışmalarım.</p>
+
+        <div class="row g-3 mt-2">
+
+            <div class="col-md-6">
+                <div class="simple-box">
+                    <h5>Linux Tabanlı Sesli Asistan</h5>
+                    <p>
+                        Python ile geliştirdiğim sesli asistan.
+                        Sesli komutlarla internet araması, müzik yönetimi
+                        ve uygulama çalıştırma gibi işlemleri yapabiliyor.
+                    </p>
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Linux</span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="simple-box">
+                    <h5>Görsel Hafıza ve Kart Eşleştirme Oyunu</h5>
+                    <p>
+                        C# ve Windows Forms kullanarak geliştirdiğim
+                        kart eşleştirme oyunu. Kart karıştırma,
+                        süre kontrolü ve skor takibi özellikleri bulunuyor.
+                    </p>
+                    <span class="project-tag">C#</span>
+                    <span class="project-tag">Windows Forms</span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="simple-box">
+                    <h5>XOX Oyunu</h5>
+                    <p>
+                        Nesne yönelimli programlama kullanarak
+                        geliştirdiğim iki kişilik XOX oyunu.
+                        Hamle kontrolü, skor takibi ve oyunu
+                        sıfırlama özelliklerine sahip.
+                    </p>
+                    <span class="project-tag">C#</span>
+                    <span class="project-tag">OOP</span>
+                </div>
+            </div>
+		
+
+	
+<div class="col-md-6">
+    <div class="simple-box">
+        <h5>Mobil Oyun Geliştirme</h5>
+        <p>
+            Mobil platformlar için bir oyun geliştirdim.
+            Oyun mekanikleri, kullanıcı etkileşimleri
+            ve arayüz tasarımı üzerine çalıştım.
+        </p>
+        <span class="project-tag">Oyun Geliştirme</span>
+        <span class="project-tag">Mobil</span>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="simple-box">
+        <h5>RAG Tabanlı Yapay Zekâ Sistemi</h5>
+        <p>
+            Belgelerden bilgi alarak kullanıcı sorularına
+            yanıt üretebilen RAG tabanlı bir sistem geliştirdim.
+            PDF işleme, vektör veritabanı ve yapay zekâ
+            entegrasyonu üzerine çalıştım.
+        </p>
+        <span class="project-tag">RAG</span>
+        <span class="project-tag">Java</span>
+        <span class="project-tag">Qdrant</span>
+        <span class="project-tag">Yapay Zekâ</span>
+    </div>
+</div>
+
+		
+            <div class="col-md-6">
+                <div class="simple-box">
+                    <h5>Mobil Uygulama Çalışmaları</h5>
+                    <p>
+                        Flutter ve Dart kullanarak mesajlaşma
+                        arayüzleri ve görev takip uygulamaları
+                        geliştirdim. Farklı mobil arayüzler
+                        üzerinde çalıştım.
+                    </p>
+                    <span class="project-tag">Flutter</span>
+                    <span class="project-tag">Dart</span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="simple-box">
+                    <h5>Siber Güvenlik Çalışmaları</h5>
+                    <p>
+                        TryHackMe platformunda Linux dosya sistemi,
+                        temel ağ güvenliği ve bilgi toplama
+                        konularında uygulamalı çalışmalar yaptım.
+                    </p>
+                    <span class="project-tag">TryHackMe</span>
+                    <span class="project-tag">Linux</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="content-card" id="yetenekler">
+        <h2>Yeteneklerim</h2>
+        <p>Kullandığım ve öğrenmeye devam ettiğim teknolojiler.</p>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>C</span>
+            <span>C#</span>
+            <span>C++</span>
+            <span>SQL</span>
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>Java</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    <section class="content-card" id="dunyam">
+        <h2>Benim Dünyam</h2>
+
+        <p>
+            Teknoloji dışında müzik dinlemeyi, satranç oynamayı,
+            yüzmeyi ve spor yapmayı seviyorum.
+            Yeni şeyler keşfetmek ve farklı alanlarda kendimi
+            geliştirmek benim için önemli.
+        </p>
+    </section>
+
+    <section class="content-card" id="iletisim">
+        <h2>İletişim</h2>
+        <p>Benimle iletişime geçmek için aşağıdaki bağlantıları kullanabilirsin.</p>
+
+        <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=burakunal516%40gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+                burakunal516@gmail.com
+            </a>
+
+            <a href="https://github.com/burakunal516" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/burak-ünal-a28573444/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Burak Ünal</p>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
